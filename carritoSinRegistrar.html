@@ -5,7 +5,7 @@
 	
 </head>	
 <body>
-		<div id="container">		
+		<div id="CaContainer">		
 		
 			<div id="main">	
 				<div id="Carrito">	
@@ -25,7 +25,7 @@
 								<td>0</td>
 								<td>S/10.00</td>
 								<td>S/</td>
-								<td><image  id="elimnar" src="eliminar.jpg" alt="X" title="Eliminar Postre" /></td>
+								<td><image  id="elimnar" src="editar.png" alt="X" title="Editar cantidad" /></td>
 							</tr>
 							
 							<tr>
@@ -33,7 +33,7 @@
 								<td>0</td>
 								<td>S/8.00</td>
 								<td>S/</td>
-								<td><image  id="elimnar" src="eliminar.jpg" alt="X" title="Eliminar Postre" /></td>
+								<td><image  id="elimnar" src="editar.png" alt="X" title="Editar cantidad" /></td>
 							</tr>
 							
 							<tr>
@@ -41,7 +41,7 @@
 								<td>0</td>
 								<td>S/12.00</td>
 								<td>S/</td>
-								<td><image  id="elimnar" src="eliminar.jpg" alt="X" title="Eliminar Postre" /></td>
+								<td><image  id="elimnar" src="editar.png" alt="X" title="Editar cantidad" /></td>
 							</tr>
 							
 							<tr>
@@ -49,7 +49,7 @@
 								<td>0</td>
 								<td>S/20.00</td>
 								<td>S/</td>
-								<td><image  id="elimnar" src="eliminar.jpg" alt="X" title="Eliminar Postre" /></td>
+								<td><image  id="elimnar" src="editar.png" alt="X" title="Editar cantidad" /></td>
 							</tr>
 
 							<tr>
@@ -57,7 +57,7 @@
 								<td>0</td>
 								<td>S/3.00</td>
 								<td>S/</td>
-								<td><image  id="elimnar" src="eliminar.jpg" alt="X" title="Eliminar Postre" /></td>
+								<td><image  id="elimnar" src="editar.png" alt="X" title="Editar cantidad" /></td>
 							</tr>
 						</table>
 					</div>
@@ -67,6 +67,7 @@
 						<div class="campo"><label for="texto" id="lbl"> Nombres :</label></div><br/>				
 						<div class="campo"><label for="texto" id="lbl"> Dirección :</label></div><br/>
 						<div class="campo"><label for="texto" id="lbl"> Distrito :</label></div><br/>
+						<div class="campo"><label for="texto" id="lbl"> Tipo de pago :</label></div><br/>
 						</div>	
 							
 						<div id="Ctxt">
@@ -76,6 +77,12 @@
 								<input class="ingreso" type="text" id="texto" name="direccion"><br/>
 								
 								<label for="texto" id="lbl"> Miraflores</label>
+								
+								<SELECT id="SelecPago" SIZE=1 >
+								<option value="00">Seleccione</option>
+								<OPTION VALUE="01">Efectivo</OPTION>
+								<OPTION VALUE="02">Cuenta 1234567890123</OPTION> 
+								</SELECT>
 						</div>
 						
 						<div id="Ctotal">
@@ -87,6 +94,3 @@
 				</div>	
 			</div>
 		</div>
-	
-</body>
-</html>
