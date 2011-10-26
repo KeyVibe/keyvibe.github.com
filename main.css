@@ -1,0 +1,347 @@
+/* General */
+
+#container{
+	width:1024px;
+	height:768px;
+	border:2px solid black;
+	
+}
+#main{
+	background-color:#FAFAC1;
+	height:668px;
+	width:1024px;
+	float:left;
+	 	
+}
+#banner{
+	width:100%;
+	height:100px;
+	background-image:url(Banner.bmp);
+}
+h1{
+	padding-top:20px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:20px;	
+	text-decoration:none;	
+	color:black;
+}
+h2{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;	
+	color:black;
+	font-weight:bold;
+}
+h3{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;	
+	color:black;
+	font-weight:bold;
+}
+
+p{
+	font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+	font-size:11px;
+	text-align: justify;
+	color:black;
+}
+#menu {
+width:1024px;
+height:30px;
+margin: 10px auto 15px auto;
+padding:0px;
+padding-left:135px;
+ 
+}
+#menu li {
+display:inline;
+}
+#menu li a{
+font-family: Arial;  
+font-size:13px;  
+text-decoration: none;
+font-weight:bold;  
+float:left;  
+padding: 10px;  
+background-color: #783737;  
+color: #FAFAC1;  
+ }
+#menu li a:hover {  
+background-color: #FAFAC1;  
+margin-top:-2px;  
+padding-bottom:12px;  
+color:#783737;
+border:2px solid #783737;
+} 
+
+/*Home*/
+
+#postres{
+	padding-left:260px;
+	margin: 15px auto 15px auto;
+}
+
+/* Nosotros */
+
+
+#imageMP{
+	float:left;	
+	padding-right:80px;
+}
+#historiaEmpresa{	
+	width:800px;
+	text-align: justify;
+	margin:5%;
+	padding-left:50px;
+}
+#misionVision{
+	width:600px;
+	text-align: justify;
+	margin: 10%;
+}
+#nuestrosChefs{
+	padding-left:50px;
+	width:600px;
+	text-align: justify;
+	margin:5%;
+}
+#historia{
+	text-align: right;
+}
+#vision{
+	text-align: right;	
+}
+
+/* Servicios */
+
+#servicioempresa{
+	padding-right:5%;
+	padding-left:5%;	
+}
+
+#servicioempresa p {
+	width:600px;
+	text-align: justify;
+	margin: 10px;
+}
+
+#servicio{
+	float:right;
+}
+
+/* Productos */
+
+.basket{
+	padding-left:100px;	
+}
+
+.boton{
+	background-color: #783737;  
+	color: #FAFAC1;
+	font-family:tahoma, geneva, sans-serif;
+	font-weight:bold;
+}
+
+#title{
+	padding-left:80px; 
+}
+
+.postre{
+width:800px;
+padding-left:100px; 
+padding-top:20px;
+}
+ 
+#postre1{
+	float:left;	
+	padding-right: 40px;
+}
+
+#postre2{
+	float:right;	
+	padding-left: 40px;
+}
+
+#postre_2 div{
+	float: right;
+}
+
+/* Antoja */
+
+#Canasta{
+padding-left: 140px;
+padding-top: 30px;
+}
+#Mapa{
+	float: right;
+	padding-right:50px;
+}
+
+#ch{
+	float : right;
+	margin-top:8px;
+	width: 150px;	
+}
+
+.cam{
+	margin-top:8px;	
+}
+
+
+#imgn{
+	float: left;
+	margin-top:25px;	
+}
+
+#vbasket1{
+
+	margin-right:60px;
+}
+
+.tf{
+margin-right:30px;
+margin-left:30px;
+width:30px;
+}
+#vbasket1{
+	margin-top:30px;
+	margin-left:70px;
+	
+}
+
+
+
+/* Registrate */
+
+label{
+	font-size:16px;
+	text-decoration:none;
+	font-weight:bold;
+	padding-left:50px;
+}
+
+.campo{
+	margin-top:4px;
+}
+
+#texto{
+	margin:10px;	
+}
+
+#rgtr{	
+	
+	margin-left:250px;
+	margin-right:200px;
+}
+
+#Registrate{
+	margin-right:100px;
+	margin-left:100px;
+	margin-top:30px;
+	padding-left:30px;
+}
+#formulario{
+
+	height:230px;
+	width:900px;
+	
+}
+#lbls{
+	width:150px;	
+	float:left; 
+	margin-left:200px; 
+}
+
+#txt{
+
+	width:250px;
+	float:right;
+	margin-right:250px;
+}
+
+#button{
+	margin-right:520px;
+	margin-top:40px;
+	margin-left:350px;
+}
+
+/*Contactenos*/
+
+#contactanos{
+	padding-left:80px;
+}
+
+#second{
+	padding-left:80px;
+}
+
+#imagecontact{
+	margin-left:38%;
+	border:2px solid black; 
+}
+.lista{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;	
+	color:black;
+	font-weight:bold;
+}
+
+#contacto{
+	text-align:center;
+}
+
+#contacto p{
+	text-align:center;
+}
+
+/* carrito */
+td input{
+width:30px;
+}
+#carrito{
+	margin-top:40px;
+	margin-left:250px;
+}
+#productos{
+
+	float:top;
+}
+#directorio{
+
+	float:top;
+}
+#Clbls{
+	
+	float:left;
+}
+#Ctxt{
+	
+	float:left;
+}
+#Ctotal{
+	float:left;
+}
+#LabTot{
+padding-top:15px;
+	float:left;
+}
+#LabTot #lbl{
+padding-left:0px;
+}
+#Rtotal{
+padding-top:15px;
+	float:left;
+}
+#Rtotal #lbl{
+padding-left:0px;
+}
+table{
+font-family:Tahoma, Geneva, sans-serif;
+font-size:14px;
+}
+th{
+background-color: #783737;
+color: #FAFAC1;
+}
+
+
+
