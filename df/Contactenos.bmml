@@ -1,0 +1,38 @@
+<mockup version="1.0" skin="sketch" measuredW="1228" measuredH="768" mockupW="1024" mockupH="768">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="204" y="0" w="1024" h="768" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//mypdesserts.com</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="307" y="173" w="-1" h="-1" measuredW="789" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%2C%20M%26P%2C%20Servicios%2C%20Caprichos%2C%20%BFQu%E9%20se%20te%20antoja%3F%2C%20FAQ%2C%20Reg%EDstrate%2C%20Comentarios%2C%20Cont%E1ctenos</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="204" y="73" w="1008" h="100" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Banner</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="1144" y="175" w="59" h="27" measuredW="59" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Log%20In</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="591" y="217" w="288" h="158" measuredW="77" measuredH="79" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Imagen%20de%20la%20empresa</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="481" y="390" w="526" h="350" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>16</size>
+        <text>Puedes%20contactarnos%20a%20los%20siguientes%20tel%E9fonos%0A%20%0AMar%EDa%20Jos%E9%20Pinillos%0A%20%0ANextel%3A%20%2894%29615*9938%0AClaro%3A%20123456789%0AMovistar%3A%20987654321%0AEmail%3A%20mariajose@hotmail.com%0A%20%0APiero%20Linares%0A%20%0ANextel%3A%20%2894%29615*9938%0AClaro%3A%20123456789%0AMovistar%3A%20987654321%0AEmail%3A%20piero@hotmail.com%0A%20%0ASi%20desea%20alguna%20consulta%2C%20acceder%20a%20la%20p%E1gina%20de%20comentarios</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
