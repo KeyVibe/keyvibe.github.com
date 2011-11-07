@@ -1,18 +1,32 @@
 /* General */
 
-#container{
+.container{
 	width:1024px;
 	height:768px;
 	border:2px solid black;
-	
 }
-#main{
+
+#containerCap{
+	width:1024px;
+	height:1180px;
+	border:2px solid black;
+}
+
+
+.main{
 	background-color:#FAFAC1;
 	height:668px;
 	width:1024px;
 	float:left;
-	 	
 }
+
+#mainCap{
+	background-color:#FAFAC1;
+	height:1080px;
+	width:1024px;
+	float:left;
+}
+
 #banner{
 	width:100%;
 	height:100px;
@@ -49,8 +63,7 @@ width:1024px;
 height:30px;
 margin: 10px auto 15px auto;
 padding:0px;
-padding-left:135px;
- 
+padding-left:60px;
 }
 #menu li {
 display:inline;
@@ -73,6 +86,42 @@ color:#783737;
 border:2px solid #783737;
 } 
 
+#login{
+	height:35px;
+}
+
+#log {
+float:right;
+width:80px;
+height:30px;
+margin: 10px auto 15px auto;
+padding-left:60px;
+margin-top: 18px;
+margin-right:30px;
+}
+
+
+#log  a{
+font-family: Arial;  
+font-size:13px;  
+text-decoration: none;
+font-weight:bold;  
+float:left;  
+padding: 10px;  
+background-color: #783737;  
+color: #FAFAC1;
+}
+
+#log a:hover {  
+background-color: #FAFAC1;  
+margin-top:-2px;  
+padding-bottom:12px;  
+color:#783737;
+border:2px solid #783737;
+} 
+
+
+
 /*Home*/
 
 #postres{
@@ -83,15 +132,22 @@ border:2px solid #783737;
 /* Nosotros */
 
 
-#imageMP{
-	float:left;	
-	padding-right:80px;
+#imgno{
+	float: left;
+	margin-left: 60px;
+	margin-top:70px;
 }
+#bloque1{
+	width: 1020px;
+	height: 480px;
+}
+
 #historiaEmpresa{	
-	width:800px;
+	width:500px;
 	text-align: justify;
-	margin:5%;
+	margin: 5%;
 	padding-left:50px;
+	float: right;
 }
 #misionVision{
 	width:600px;
@@ -102,7 +158,7 @@ border:2px solid #783737;
 	padding-left:50px;
 	width:600px;
 	text-align: justify;
-	margin:5%;
+	margin-top:10px;
 }
 #historia{
 	text-align: right;
@@ -113,6 +169,8 @@ border:2px solid #783737;
 
 /* Servicios */
 
+
+
 #servicioempresa{
 	padding-right:5%;
 	padding-left:5%;	
@@ -121,7 +179,6 @@ border:2px solid #783737;
 #servicioempresa p {
 	width:600px;
 	text-align: justify;
-	margin: 10px;
 }
 
 #servicio{
@@ -140,30 +197,83 @@ border:2px solid #783737;
 	font-family:tahoma, geneva, sans-serif;
 	font-weight:bold;
 }
-
+#botonComp{
+	width : 100px;
+	margin-left: 500px;
+	margin-top: 30px;
+}
 #title{
 	padding-left:80px; 
 }
 
 .postre{
-width:800px;
-padding-left:100px; 
+width:650px;
+height:150px;
+margin-left:100px; 
 padding-top:20px;
+}
+
+.cantt{
+	width : 110px;
+    float: right;
+	margin-right: 80px;
+	margin-top : 80px;
+	
+}
+
+.lbb{
+	padding-left: 3px;
+	margin-top:5px;
+}
+
+#img1{
+
+float: right;
+width: 100px;
+margin-top: 30px
+}
+
+
+#img2{
+
+float: left;
+width: 100px;
+margin-top: 40px;
+margin-right:20px;
+}
+
+.txtl{
+	margin-right: 15px;
+	width: 500px;
+	float: left;
+}
+
+.txtr{
+	margin-right: 15px;
+	width: 500px;
+	float: right;
+}
+
+.tcant{
+	width: 25px;
+	margin-left: 10px;
+	margin-top:5px;
 }
  
 #postre1{
 	float:left;	
 	padding-right: 40px;
+	
 }
 
 #postre2{
 	float:right;	
 	padding-left: 40px;
+	
 }
 
-#postre_2 div{
-	float: right;
-}
+
+
 
 /* Antoja */
 
@@ -207,6 +317,30 @@ width:30px;
 	margin-left:70px;
 	
 }
+
+/*FAQ*/
+
+#listafaq {
+	margin-top:20px;
+	width : 550px;
+	margin-left: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#imgFaQ{
+	float:right;	
+	margin-top: 50px;
+	padding-right: 40px;
+	
+}
+
+#listafaq #msg{
+	margin-left:150px;
+
+
+}
+
 
 
 
@@ -258,11 +392,16 @@ label{
 	margin-right:250px;
 }
 
+
 #button{
 	margin-right:520px;
 	margin-top:40px;
 	margin-left:350px;
+	width: 200px;
+	height: 40px;
 }
+
+
 
 /*Contactenos*/
 
@@ -283,20 +422,30 @@ label{
 	font-size:16px;	
 	color:black;
 	font-weight:bold;
+	list-style-type:none;
+	
+	
 }
 
 #contacto{
-	text-align:center;
+	 text-align:center; 
+	
+	width : 500px;
+	margin-left: 250px;
+	
 }
 
 #contacto p{
 	text-align:center;
 }
 
-/* carrito */
-td input{
-width:30px;
+#btn{
+	width: 250px;
+	height: 30px;
 }
+
+/* carrito */
+
 #carrito{
 	margin-top:40px;
 	margin-left:250px;
@@ -314,8 +463,16 @@ width:30px;
 	float:left;
 }
 #Ctxt{
-	
-	float:left;
+	float:left;	
+ 	width: 200px; 
+}
+
+select{
+	margin-left:10px;
+}
+
+#SelecPago{
+margin-top:25px;
 }
 #Ctotal{
 	float:left;
@@ -345,9 +502,50 @@ color: #FAFAC1;
 
 /* Inicio de sesion */
 
-#registrarse{
-margin-left:200px;
+.label{
+	float:left;
+	margin-top: 10px;
 }
+
+#registrarse{
+margin-left:80px;
+width: 300px;
+margin-top: 100px;
+}
+
+#lbls{
+	float: left;	
+	margin-left: 30px;
+	margin-top: 10px ;
+	height: 80px;
+}
+
+#bottons{
+	width: 400px;
+}
+
+#log{	
+	width: 70px;
+}
+
+#Sesionstxt{
+	margin-top:5px;	
+	float: center;
+	width: 500px;
+}
+#sesion{	
+	width:500px;
+	height:300px;
+}
+
+#ses{
+border:2px solid black;
+background-color:#FAFAC1;
+	height:300px;
+	width:500px;
+	float:left;
+}
+
 
 
 
