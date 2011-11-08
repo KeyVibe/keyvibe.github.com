@@ -1,18 +1,34 @@
 /* General */
 
+.container#containerCap{
+	width:1024px;
+	height:1180px;
+	border:2px solid black;
+}
+
+.container#ContNos{
+	width:1024px;
+	height:980px;
+	border:2px solid black;
+}
 .container{
 	width:1024px;
 	height:768px;
 	border:2px solid black;
 }
 
-#containerCap{
+.main#mainCap{
+	background-color:#FAFAC1;
+	height:1080px;
 	width:1024px;
-	height:1180px;
-	border:2px solid black;
+	float:left;
 }
-
-
+.main#mainNos{
+	background-color:#FAFAC1;
+	height:880px;
+	width:1024px;
+	float:left;
+}
 .main{
 	background-color:#FAFAC1;
 	height:668px;
@@ -20,12 +36,6 @@
 	float:left;
 }
 
-#mainCap{
-	background-color:#FAFAC1;
-	height:1080px;
-	width:1024px;
-	float:left;
-}
 
 #banner{
 	width:100%;
@@ -131,6 +141,11 @@ border:2px solid #783737;
 
 /* Nosotros */
 
+#imageMPChef{
+	float:right;
+	margin-right: 50px; 
+		
+}
 
 #imgno{
 	float: left;
@@ -155,10 +170,13 @@ border:2px solid #783737;
 	margin: 10%;
 }
 #nuestrosChefs{
-	padding-left:50px;
-	width:600px;
+
+	width:500px;
 	text-align: justify;
 	margin-top:10px;
+	margin-left:60px;	
+	
+
 }
 #historia{
 	text-align: right;
