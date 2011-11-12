@@ -5,9 +5,6 @@
 <html>
 <head>
 	<title> M&P :: Cattering de pasteleria - home </title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.js" type="text/javascript"></script>
-		<script src="script.js" type="text/javascript"></script>
-		<script src="autoadvance.js" type="text/javascript"></script>
 		<meta http-equiv="Content- type" content="text/html; charset=iso-8859-1"/>
 		<meta name= "title" content="MyP dessert" />
 		<meta name= "description" content="Delivery de postres" />
@@ -18,9 +15,24 @@
 		<meta name="language" content="Spanish">
 		<meta name="robots" content="all,follow,index" />
 		<meta name="generator" content="NotePad++">
+	
 		<link href="nosotros.css" rel="stylesheet" type="text/css"/>
 		<link href="main.css" rel="stylesheet" type="text/css"/>
-	
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+		<script src="slides.min.jquery.js"></script>
+		<script>
+			$(function(){
+				$('#slides').slides({
+					preload: true,
+					preloadImage: 'img/loading.gif',
+					play: 5000,
+					pause: 2500,
+					hoverPause: true
+				});
+			});
+		</script>
 </head>	
 <body>
 	<div class="container">
@@ -28,18 +40,28 @@
 		</div>			
 		
 		<div class="main">	
-			<div id="log"><a href="InicioSesion.html" target="blank">Log in</a></div>
-				<div id="slideshow">
-					<ul class="slides">
-					    	<li><img src="1.jpeg" alt="Marsa Alam underawter close up" /></li>
-							<li><img src="2.jpeg" alt="Turrimetta Beach - Dawn" /></li>
-							<li><img src="3.jpeg" alt="Power Station" /></li>
-							<li><img src="4.jpeg" alt="Colors of Nature" /></li>
-					</ul>
-					<span class="arrow previous"></span>
-					<span class="arrow next"></span>		
+					<div id="log"><a href="InicioSesion.html" target="blank">Log in</a></div>
+		
+				<div id="container">
+		<div id="example">
+			<div id="slides">
+				<div class="slides_container">
+					<a href="http://www.flickr.com/photos/jliba/4665625073/" title="145.365 - Happy Bokeh Thursday! | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-1.jpg" width="570" height="270" alt="Slide 1"></a>
+					<a href="http://www.flickr.com/photos/stephangeyer/3020487807/" title="Taxi | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-2.jpg" width="570" height="270" alt="Slide 2"></a>
+					<a href="http://www.flickr.com/photos/childofwar/2984345060/" title="Happy Bokeh raining Day | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-3.jpg" width="570" height="270" alt="Slide 3"></a>
+					<a href="http://www.flickr.com/photos/b-tal/117037943/" title="We Eat Light | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-4.jpg" width="570" height="270" alt="Slide 4"></a>
+					<a href="http://www.flickr.com/photos/bu7amd/3447416780/" title="“I must go down to the sea again, to the lonely sea and the sky; and all I ask is a tall ship and a star to steer her by.” | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-5.jpg" width="570" height="270" alt="Slide 5"></a>
+					<a href="http://www.flickr.com/photos/streetpreacher/2078765853/" title="twelve.inch | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-6.jpg" width="570" height="270" alt="Slide 6"></a>
+					<a href="http://www.flickr.com/photos/aftab/3152515428/" title="Save my love for loneliness | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-7.jpg" width="570" height="270" alt="Slide 7"></a>
 				</div>
-		<div id="menu">		
+				<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+				<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+			</div>
+
+		</div>
+	</div>
+		
+			<div id="menu">		
 			<ul>
 			<li><a href="home.html">Home</a></li>
 			<li><a href="nosotros.html">M&P</a></li>
@@ -51,9 +73,11 @@
 			<li><a href="comentarios.html">Comentarios</a></li>
 			<li><a href="contactenos.html">Contactenos</a></li>
 			</ul>
-		</div>		
+		
+			</div>
+		
+		
 		</div>
-		</div>		
 		
 	</div>
 	
