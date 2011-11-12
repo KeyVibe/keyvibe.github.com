@@ -545,7 +545,6 @@ background-color:#FAFAC1;
 	width:500px;
 	float:left;
 }
-
 /*slideshow*/
 
 
@@ -675,6 +674,3 @@ background-color:#FAFAC1;
 .pagination li.current a {
 	background-position:0 -12px;
 }
-
-
-
