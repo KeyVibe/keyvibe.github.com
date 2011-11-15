@@ -63,7 +63,14 @@ width:1024px;
 height:30px;
 margin: 10px auto 15px auto;
 padding:0px;
-padding-left:60px;
+padding-left:50px;
+}
+.menuHome#menu{
+width:1024px;
+height:30px;
+margin: 10px auto 15px auto;
+padding:0px;
+padding-left:90px;
 }
 #menu li {
 display:inline;
@@ -77,13 +84,14 @@ float:left;
 padding: 10px;  
 background-color: #783737;  
 color: #FAFAC1;  
+border:2px solid #783737;
  }
 #menu li a:hover {  
 background-color: #FAFAC1;  
 margin-top:-2px;  
 padding-bottom:12px;  
 color:#783737;
-border:2px solid #783737;
+
 } 
 
 #login{
@@ -674,3 +682,5 @@ background-color:#FAFAC1;
 .pagination li.current a {
 	background-position:0 -12px;
 }
+
+
