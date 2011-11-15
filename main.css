@@ -592,7 +592,7 @@ background-color:#FAFAC1;
 }
 
 /*
-	Slideshow si va
+	Slideshow
 */
 
 #slides {
@@ -618,11 +618,7 @@ background-color:#FAFAC1;
 }
 
 /*
-	Each slide
-	Important:
-	Set the width of your slides
-	If height not specified height will be set by the slide content
-	Set to display block (si va)
+	Para cada slide
 */
 
 .slides_container a {
@@ -636,7 +632,7 @@ background-color:#FAFAC1;
 }
 
 /*
-	Next/prev buttons si va
+	Botones next/prev
 */
 
 #slides .next,#slides .prev {
@@ -654,7 +650,7 @@ background-color:#FAFAC1;
 }
 
 /*
-	Pagination (si va)
+	Pagination 
 */
 
 .pagination {
