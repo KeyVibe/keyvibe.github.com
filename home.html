@@ -16,19 +16,19 @@
 		<meta name="robots" content="all,follow,index" />
 		<meta name="generator" content="NotePad++">
 	
-		<link href="nosotros.css" rel="stylesheet" type="text/css"/>
 		<link href="main.css" rel="stylesheet" type="text/css"/>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 		<script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
 		<script src="slides.min.jquery.js"></script>
+		<script src="miScript.js"></script>
 		<script>
 			$(function(){
 				$('#slides').slides({
 					preload: true,
 					preloadImage: 'img/loading.gif',
-					play: 5000,
-					pause: 2500,
+					play: 2000,
+					pause: 2000,
 					hoverPause: true
 				});
 			});
@@ -36,50 +36,44 @@
 </head>	
 <body>
 	<div class="container">
-		<div id="banner">				
-		</div>			
+		<div id="banner"></div>			
 		
 		<div class="main">	
-					<div id="log"><a href="InicioSesion.html" target="blank">Log in</a></div>
-		
+			<div id="log"><a href="InicioSesion.html" target="blank">Log in</a></div>
 				<div id="container">
-		<div id="example">
-			<div id="slides">
-				<div class="slides_container">
-					<a href="http://www.flickr.com/photos/jliba/4665625073/" title="145.365 - Happy Bokeh Thursday! | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-1.jpg" width="570" height="270" alt="Slide 1"></a>
-					<a href="http://www.flickr.com/photos/stephangeyer/3020487807/" title="Taxi | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-2.jpg" width="570" height="270" alt="Slide 2"></a>
-					<a href="http://www.flickr.com/photos/childofwar/2984345060/" title="Happy Bokeh raining Day | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-3.jpg" width="570" height="270" alt="Slide 3"></a>
-					<a href="http://www.flickr.com/photos/b-tal/117037943/" title="We Eat Light | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-4.jpg" width="570" height="270" alt="Slide 4"></a>
-					<a href="http://www.flickr.com/photos/bu7amd/3447416780/" title="“I must go down to the sea again, to the lonely sea and the sky; and all I ask is a tall ship and a star to steer her by.” | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-5.jpg" width="570" height="270" alt="Slide 5"></a>
-					<a href="http://www.flickr.com/photos/streetpreacher/2078765853/" title="twelve.inch | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-6.jpg" width="570" height="270" alt="Slide 6"></a>
-					<a href="http://www.flickr.com/photos/aftab/3152515428/" title="Save my love for loneliness | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-7.jpg" width="570" height="270" alt="Slide 7"></a>
+					<div id="example">
+						<div id="slides">
+							<div class="slides_container">
+								<img src="Imgs\logo.jpg" width="570" height="270" title="Logo MyP" alt="Slide 1" >
+								<img src="Imgs\chefs.jpg" width="570" height="270" title="Chefs de MyP" alt="Slide 2" >
+								<img src="Imgs\alfajor.jpg" width="570" height="270" title="Alfajores de Maicena" alt="Slide 3" >
+								<img src="Imgs\crema.jpg" width="570" height="270" title="Pastel de crema" alt="Slide 4" >
+								<img src="Imgs\fresa.jpg" width="570" height="270" title="Cheescake de fresa" alt="Slide 5" >
+								<img src="Imgs\keke.jpg" width="570" height="270" title="Keke" alt="Slide 6" >
+								<img src="Imgs\pye.jpg" width="570" height="270" title="Pye de limón" alt="Slide 7" >
+							</div>
+							<div id="flechas">
+								<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+								<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+							</div>
+						</div>
+					</div>
 				</div>
-				<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
-				<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+				
+			<div class="menuHome" id="menu">		
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="nosotros.html">M&P</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="productos.html">Caprichos</a></li>
+					<li><a href="comprar.html">¿Que se te antoja?</a></li>
+					<li> <a href="faq.html">FAQ</a></li>
+					<li><a href="registrate.html">Registrate</a></li>
+					<li><a href="comentarios.html">Comentarios</a></li>
+					<li><a href="contactenos.html">Contactenos</a></li>
+				</ul>
 			</div>
-
 		</div>
 	</div>
-		
-			<div id="menu">		
-			<ul>
-			<li><a href="home.html">Home</a></li>
-			<li><a href="nosotros.html">M&P</a></li>
-			<li><a href="servicios.html">Servicios</a></li>
-			<li><a href="productos.html">Caprichos</a></li>
-			<li><a href="comprar.html">¿Que se te antoja?</a></li>
-			<li> <a href="faq.html">FAQ</a></li>
-			<li><a href="registrate.html">Registrate</a></li>
-			<li><a href="comentarios.html">Comentarios</a></li>
-			<li><a href="contactenos.html">Contactenos</a></li>
-			</ul>
-		
-			</div>
-		
-		
-		</div>
-		
-	</div>
-	
 </body>
 </html>
