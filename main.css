@@ -62,14 +62,14 @@ width:1024px;
 height:30px;
 margin: 10px auto 15px auto;
 padding:0px;
-padding-left:50px;
+padding-left:200px;
 }
 .menuHome#menu{
 width:1024px;
 height:30px;
 margin: 10px auto 15px auto;
 padding:0px;
-padding-left:90px;
+padding-left:195px;
 }
 #menu li {
 display:inline;
@@ -361,7 +361,7 @@ margin-right:20px;
 #container {
 	width:580px;
 	padding:10px;
-	margin:100px auto;
+	margin:150px auto;
 	position:relative;
 	border:solid #783737 2px;
 	background-color:#FAFAC1;
