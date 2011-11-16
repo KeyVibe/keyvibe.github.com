@@ -16,7 +16,8 @@
 		<meta name="robots" content="all,follow,index" />
 		<meta name="generator" content="NotePad++">
 	<link href="main.css" rel="stylesheet" type="text/css"/>
-
+	<script type="text/javascript" src="prototype.js"></script>
+	<script type="text/javascript" src="agregarcoment.js"></script>
 </head>	
 <body>
 		<div class="container">
@@ -25,7 +26,6 @@
 		</div>			
 		
 			<div class="main">	
-						<div id="log"><a href="InicioSesion.html" target="blank">Log in</a></div>	
 				<div id="menu">		
 				
 				<ul>
@@ -35,7 +35,6 @@
 			<li><a href="productos.html">Caprichos</a></li>
 			<li><a href="comprar.html">¿Que se te antoja?</a></li>
 			<li><a href="faq.html">FAQ</a></li>
-			<li><a href="registrate.html">Registrate</a></li>
 			<li><a href="comentarios.html">Comentarios</a></li>
 			<li><a href="contactenos.html">Contactenos</a></li>
 			</ul>
@@ -45,25 +44,19 @@
 				<h1 id="identificacion">Dejanos tu comentario</h1>
 				<div id="dejanos_comentario">
 					<p>Nombre:</p>
-					<input type="text" class="nombre:"/><br/>
+					<input type="text" class="nombre:" id="nombreComnt"/><br/>
 					<p>Comentario:</p>
-					<textarea cols="60" rows="15" name="comment" id="edit-comment" >
+					<textarea cols="60" rows="15" name="comment" id="coment" >
 					</textarea><br/>
 					
 				<div id="btn">					
-					<input class="boton" type="submit" value="ENVIAR" />
-					<input class="boton" id="boton2" type="reset" value="Limpiar">					
+					<input class="boton" type="submit" value="ENVIAR" onclick="agregarComent()" />
+					<input class="boton" id="boton2" type="reset" value="Limpiar" onclick="limpiar()">					
 				</div>
 				
 				</div>
 				<div id="almacen_de_comentario">
-				<h2 id="anteriores">Comentarios anteriores (4)</h2>
-					<p class="text">Nombre:</p>
-					<input type="text"/><br/>
-					<p class="text">Comentario:</p>
-					<textarea cols="80" rows="1" name="comment" id="edit-comment" >
-					</textarea><br/>
-					<br/>
+				<h2 id="anteriores">Comentarios anteriores</h2>
 				</div>
 			</div>
 		</div>
