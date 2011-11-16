@@ -2,6 +2,8 @@
 
 	<head>
 		<title>M&P :: cattering de pasteleria - Postres</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.js" text="text/javascript"></script>
+		<script src="miScript.js" text="text/javascript"></script> 
 		<meta http-equiv="Content- type" content="text/html; charset=iso-8859-1"/>
 		<meta name= "title" content="MyP dessert" />
 		<meta name= "description" content="Postres" />
@@ -13,18 +15,44 @@
 		<meta name="robots" content="all,follow,index" />
 		<meta name="generator" content="NotePad++">
 		
-		
+	
 		<link href="main.css" rel="stylesheet" type="text/css"/>
 		
 	</head>
 	
 	<body>
 	
-		<div id="containerCap" >
+		<div id="carrito">
+			<h1 id="tc">Carrito de Compras</h1>
+			<div id="tablaCarrito">
+			</div>			
+			<p id="a">volver a productos</p>
+			<div id= "totalPagar">
+			<label for="text" id="Tot" >Total a pagar :</label><input type = "text" name="total" class="Tot" id="tot1">
+			</div>
+			
+		</div>
+	
+		<div class="container" >
 		<div id="banner">
+			<img src="http://i.picasion.com/pic46/d5c0db1ae215d28c3152da8eee33bc72.gif" width="237" height="100" title="Gif1" alt="Gif 1" >
+				<object height="100" width="1024" type="application/x-shockwave-flash" wmode="transparent"
+					classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://active.macromedia.com/flash7/cabs/swflash.cab#version=9,0,0,0"
+					data="http://d2v58id5qi36gs.cloudfront.net/v1/banner_en.swf?autoplay_=true&txt_1=Bienvenido+a+M%26P+Desserts,23,172,0,0,0x5F9EA0,1&txt_2=++++++++++++++,17,130,33,0,0x000000,0&txt_3=Delivery+de+postres,60,50,40,0,0x1A2828,0&img_1=http://www.oocities.org/vluongo/images/dessert.gif,300,0,0,1&img_2=http://www.mipasteleria.cl/img_global/www/tellamamosfono.gif,-100,25,0,0&fonimg=http://d2v58id5qi36gs.cloudfront.net/v1/r/spacer.gif,12&fongradcol=0xffffff,0xf5f5f5&sdw_1=txt_3,0ffffff&ani_1=img_1,x,10,20&ani_2=img_2,alpha,1,100&ani_3=img_2,x,430,100&ani_4=txt_2,alpha,1,120&ani_5=txt_3,alpha,1,20&ani_6=img_1_inner,rotation,33,100&ani_7=img_1_inner,scaleX,4,70&ani_8=img_1_inner,scaleY,4,70&ani_9=img_1,x,100,60,50&ani_10=img_1,y,80,60,50&locale=en&snd_0=">
+					<param name="movie" value="http://d2v58id5qi36gs.cloudfront.net/v1/banner_en.swf?autoplay_=true&txt_1=Bienvenido+a+M%26P+Desserts,23,172,0,0,0x5F9EA0,1&txt_2=++++++++++++++,17,130,33,0,0x000000,0&txt_3=Delivery+de+postres,60,50,40,0,0x1A2828,0&img_1=http://www.oocities.org/vluongo/images/dessert.gif,300,0,0,1&img_2=http://www.mipasteleria.cl/img_global/www/tellamamosfono.gif,-100,25,0,0&fonimg=http://d2v58id5qi36gs.cloudfront.net/v1/r/spacer.gif,12&fongradcol=0xffffff,0xf5f5f5&sdw_1=txt_3,0ffffff&ani_1=img_1,x,10,20&ani_2=img_2,alpha,1,100&ani_3=img_2,x,430,100&ani_4=txt_2,alpha,1,120&ani_5=txt_3,alpha,1,20&ani_6=img_1_inner,rotation,33,100&ani_7=img_1_inner,scaleX,4,70&ani_8=img_1_inner,scaleY,4,70&ani_9=img_1,x,100,60,50&ani_10=img_1,y,80,60,50&locale=en&snd_0="/>
+					<param name="menu" value="false"/>
+					<param name="allowFullscreen" value="true"/>
+					<param name="allowScriptAccess" value="always"/>
+					<param name="test" value="always"/>
+					<param name="bgcolor" value="#ffffff"/>
+					<param name="wmode" value="transparent" />
+					<embed type="application/x-shockwave-flash" src="http://d2v58id5qi36gs.cloudfront.net/v1/banner_en.swf?autoplay_=true&txt_1=Bienvenido+a+M%26P+Desserts,23,172,0,0,0x5F9EA0,1&txt_2=++++++++++++++,17,130,33,0,0x000000,0&txt_3=Delivery+de+postres,60,50,40,0,0x1A2828,0&img_1=http://www.oocities.org/vluongo/images/dessert.gif,300,0,0,1&img_2=http://www.mipasteleria.cl/img_global/www/tellamamosfono.gif,-100,25,0,0&fonimg=http://d2v58id5qi36gs.cloudfront.net/v1/r/spacer.gif,12&fongradcol=0xffffff,0xf5f5f5&sdw_1=txt_3,0ffffff&ani_1=img_1,x,10,20&ani_2=img_2,alpha,1,100&ani_3=img_2,x,430,100&ani_4=txt_2,alpha,1,120&ani_5=txt_3,alpha,1,20&ani_6=img_1_inner,rotation,33,100&ani_7=img_1_inner,scaleX,4,70&ani_8=img_1_inner,scaleY,4,70&ani_9=img_1,x,100,60,50&ani_10=img_1,y,80,60,50&locale=en&snd_0=" width="542" height="100" quality="high" wmode="transparent" pluginspage="http://www.adobe.com/go/getflashplayer">
+					</embed>
+				</object>
+			<img src="http://i.picasion.com/pic46/7b7cc11f052759cc5cee003dfd4711eb.gif" width="237" height="100" title="Gif2" alt="Gif 2" >
 		</div>
 		
-			<div id="mainCap">
+			<div class="main">
 					<div id="log"><a href="InicioSesion.html" target="blank">Log in</a></div>
 			<div id="menu">
 			<ul>
@@ -44,9 +72,9 @@
 			 
 			
 			<div class="cantt" id="c2">
-				<input  type="checkbox" id="check1"><label for="text" class="lbb"> Seleccionar </label>
-				<label for="text" class="lbb">Cantidad</label><input type = "text" name="cantidad" class="tcant">
+				<label for="text" class="cant" >Cantidad</label><input type = "text" name="cantidad" class="tcant" id="cant1">
 			</div>
+			
 			
 			
 			<div class="postre" id="postre_1">
@@ -62,8 +90,7 @@
 			</div>
 			
 			<div class="cantt">
-				<input  type="checkbox" id="check2"><label for="text" class="lbb"> Seleccionar </label>
-				<label for="text" class="lbb">Cantidad</label><input type = "text" name="cantidad" class="tcant">
+				<label for="text" class="cant" >Cantidad</label><input type = "text" name="cantidad" class="tcant" id="cant2">
 			</div>
 			
 			<div class="postre" id="postre_2">
@@ -79,8 +106,7 @@
 			</div>
 			
 			<div class="cantt">
-				<input  type="checkbox" id="check2"><label for="text" class="lbb"> Seleccionar </label>
-				<label for="text" class="lbb">Cantidad</label><input type = "text" name="cantidad" class="tcant">
+				<label for="text" class="cant" >Cantidad</label><input type = "text" name="cantidad" class="tcant" id="cant3">
 			</div>
 			
 			<div class="postre" id="postre_3">			
@@ -95,8 +121,7 @@
 			</div>
 			
 			<div class="cantt">
-				<input  type="checkbox" id="check2"><label for="text" class="lbb"> Seleccionar </label>
-				<label for="text" class="lbb">Cantidad</label><input type = "text" name="cantidad" class="tcant">
+				<label for="text" class="cant" >Cantidad</label><input type = "text" name="cantidad" class="tcant" id="cant4">
 			</div>
 			
 			<div class="postre" id="postre_4">			
@@ -111,8 +136,7 @@
 			</div>
 			
 			<div class="cantt">
-				<input  type="checkbox" id="check2"><label for="text" class="lbb"> Seleccionar </label>
-				<label for="text" class="lbb">Cantidad</label><input type = "text" name="cantidad" class="tcant">
+				<label for="text" class="cant" >Cantidad</label><input type = "text" name="cantidad" class="tcant" id="cant5">
 			</div>
 			
 			<div class="postre" id="postre_5">			
@@ -125,12 +149,12 @@
 			</div>			
 			
 			</div>
-			
+		
 			<div id="botonComp">
-				<input type="button" class ="boton" name="Comprar" onclick="" value="Comprar"/>
+				<input type="button" class ="boton" name="Comprar" id="comprar" onclick="" value="Comprar"/>
 			</div>
-			
-			
+		
+
 			
 		</div>
 		</div>
