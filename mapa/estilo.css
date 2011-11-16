@@ -1,0 +1,22 @@
+#cajon{
+	border:2px solid green;
+	width: 400px;
+	height: 450px;
+}
+
+#postre5{
+	float:left;
+}
+#postre2{
+	float:right;
+}
+#postre3{
+	float:left;
+}
+#postre4{
+	float:right;
+}
+
+.hover{
+	cursor:pointer;
+}
