@@ -30,8 +30,9 @@
 #banner{
 	width:100%;
 	height:100px;
-	background-image:url(Banner.bmp);
+	border-bottom:solid black 2px;
 }
+
 h1{
 	padding-top:20px;
 	font-family:Tahoma, Geneva, sans-serif;
@@ -592,7 +593,7 @@ background-color:#FAFAC1;
 }
 
 /*
-	Slideshow
+	Slideshow 
 */
 
 #slides {
@@ -618,7 +619,11 @@ background-color:#FAFAC1;
 }
 
 /*
-	Para cada slide
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block (si va)
 */
 
 .slides_container a {
@@ -632,7 +637,7 @@ background-color:#FAFAC1;
 }
 
 /*
-	Botones next/prev
+	Botones de anterior y siguiente
 */
 
 #slides .next,#slides .prev {
@@ -678,5 +683,6 @@ background-color:#FAFAC1;
 .pagination li.current a {
 	background-position:0 -12px;
 }
+
 
 
