@@ -94,5 +94,54 @@ $(document).ready(function(){
 				$('#carrito').hide();
 				$('#containerCap').show();
 			});
+			
+			$('#barranco').hover(
+			function(){ $(this).addClass('hover')},
+			function(){ $(this).removeClass('hover')}
+		);
+		$('#miraflores').hover(
+			function(){ $(this).addClass('hover')},
+			function(){ $(this).removeClass('hover')}
+		);
+		$('#sanisidro').hover(
+			function(){ $(this).addClass('hover')},
+			function(){ $(this).removeClass('hover')}
+		);
+		$('#sanborja').hover(
+			function(){ $(this).addClass('hover')},
+			function(){ $(this).removeClass('hover')}
+		);
+		 var distrito=0;
+		 var totalPagar=tP;
+		 
+		$('#barranco').click(function(){
+			$('#tot3').attr('value', 'Barranco'+' + S/ 5.00');
+			distrito = 5;			
+			totalPagar=tP+distrito;
+			$('#tot4').attr('value', totalPagar);
+		});
+		
+		$('#miraflores').click(function(){
+			$('#tot3').attr('value', 'Miraflores'+' + S/ 5.00');
+			distrito = 5;
+			totalPagar=tP+distrito;
+			$('#tot4').attr('value', totalPagar);
+		});
+		
+		$('#sanisidro').click(function(){
+			$('#tot3').attr('value', 'San Isidro'+' + S/ 7.00');
+			distrito = 7;
+			totalPagar=tP+distrito;
+			$('#tot4').attr('value', totalPagar);
+		});
+		
+		$('#sanborja').click(function(){
+			$('#tot3').attr('value', 'San Borja'+' + S/ 7.00');
+			distrito = 7;
+			totalPagar=tP+distrito;
+			$('#tot4').attr('value', totalPagar);
+		});	
+			
+			
 	});
 });

@@ -2,14 +2,8 @@
 
 .container{
 	width:1024px;
-	border:2px solid black;
 }
 
-#containerCap{
-	width:1024px;
-	height:1180px;
-	border:2px solid black;
-}
 
 
 .main{
@@ -18,18 +12,7 @@
 	float:left;
 }
 
-#mainCap{
-	background-color:#FAFAC1;
-	height:1080px;
-	width:1024px;
-	float:left;
-}
 
-#banner{
-	width:100%;
-	height:100px;
-	border-bottom:solid black 2px;
-}
 
 h1{
 	padding-top:20px;
@@ -181,7 +164,6 @@ border:2px solid #783737;
 	text-align: right;	
 }
 
-
 /* Servicios */
 
 
@@ -240,7 +222,9 @@ padding-top:20px;
 	padding-left: 3px;
 	margin-top:5px;
 }
-
+.cant{
+	padding-left: 1px;
+}
 #img1{
 
 float: right;
@@ -286,6 +270,146 @@ margin-right:20px;
 	padding-left: 40px;
 	
 }
+#carrito{
+	background :#FAFAC1;
+	border: 2px solid black;
+	height: 600px;
+	width: 1000px;
+}
+
+#a{
+	float : right;
+	margin-left:250px;
+	margin-top:30px;
+	margin-right:30px;
+	color: #783737;
+	font-weight:bold;
+	
+	
+}
+#a.hover{
+	text-decoration: underline;
+	color: black;
+	cursor:pointer;
+}
+#tc{
+	margin-left: 40px;
+}
+.tr{
+		
+		border: 0px;
+} 
+.td{
+	
+	padding: 10px;
+	text-align: center;
+	
+}  
+#tablaCarrito{
+	margin-left: 60px;
+	margin-top: 30px;
+	height:250px;
+	width: 400px;
+}
+
+#totalPagar{
+	float: left;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+#registro{
+	float:left;
+	width:400px;
+	margin-left:30px;
+	margin-top: 20px;
+}
+#registro1{
+	float:left;
+	width:205px;
+}
+#registro2{
+	float:right;
+	width:150px;
+	height: 200px;
+}
+.Tot{
+	width: 100px;	
+}
+.Tot1{
+	float:left;
+}
+label{
+	margin-top:2px;
+}
+#mapa{
+	float:right;
+	width: 400px;
+	height: 400px;
+}
+#imgc1{
+	float:left; 
+}
+#imgc2{
+	float:right;
+}
+#imgc3{
+	float:left;
+}
+#imgc4{
+	float:right;
+} 
+.hover{
+	cursor:pointer;
+}
+
+#boton12{
+	margin-left: 300x;
+	margin-top:190px;
+	padding-left:300px;
+}
+
+/* Antoja */
+
+#Canasta{
+padding-left: 140px;
+padding-top: 30px;
+}
+#Mapa{
+	float: right;
+	padding-right:50px;
+}
+
+#ch{
+	float : right;
+	margin-top:8px;
+	width: 150px;	
+}
+
+.cam{
+	margin-top:8px;	
+}
+
+
+#imgn{
+	float: left;
+	margin-top:25px;	
+}
+
+#vbasket1{
+
+	margin-right:60px;
+}
+
+.tf{
+margin-right:30px;
+margin-left:30px;
+width:30px;
+}
+#vbasket1{
+	margin-top:30px;
+	margin-left:70px;
+	
+}
 
 /*FAQ*/
 
@@ -309,6 +433,68 @@ margin-right:20px;
 
 
 }
+
+
+
+
+/* Registrate */
+
+label{
+	font-size:16px;
+	text-decoration:none;
+	font-weight:bold;
+	padding-left:50px;
+}
+
+.campo{
+	margin-top:4px;
+}
+
+#texto{
+	margin:10px;	
+}
+
+#rgtr{	
+	
+	margin-left:250px;
+	margin-right:200px;
+}
+
+#Registrate{
+	margin-right:100px;
+	margin-left:100px;
+	margin-top:30px;
+	padding-left:30px;
+}
+#formulario{
+
+	height:230px;
+	width:900px;
+	
+}
+#lbls{
+	width:150px;	
+	float:left; 
+	margin-left:200px; 
+}
+
+#txt{
+
+	width:250px;
+	float:right;
+	margin-right:250px;
+}
+
+
+#button{
+	margin-right:520px;
+	margin-top:40px;
+	margin-left:350px;
+	width: 200px;
+	height: 40px;
+}
+
+
 
 /*Contactenos*/
 
@@ -351,6 +537,107 @@ margin-right:20px;
 	height: 30px;
 }
 
+/* carrito */
+
+#carrito{
+	margin-top:40px;
+	margin-left:250px;
+}
+#productos{
+
+	float:top;
+}
+#directorio{
+
+	float:top;
+}
+#Clbls{
+	
+	float:left;
+}
+#Ctxt{
+	float:left;	
+ 	width: 200px; 
+}
+
+select{
+	margin-left:10px;
+}
+
+#SelecPago{
+margin-top:25px;
+}
+#Ctotal{
+	float:left;
+}
+#LabTot{
+padding-top:15px;
+	float:left;
+}
+#LabTot #lbl{
+padding-left:0px;
+}
+#Rtotal{
+padding-top:15px;
+	float:left;
+}
+#Rtotal #lbl{
+padding-left:0px;
+}
+table{
+font-family:Tahoma, Geneva, sans-serif;
+font-size:14px;
+}
+th{
+background-color: #783737;
+color: #FAFAC1;
+}
+
+/* Inicio de sesion */
+
+.label{
+	float:left;
+	margin-top: 10px;
+}
+
+#registrarse{
+margin-left:80px;
+width: 300px;
+margin-top: 100px;
+}
+
+#lbls{
+	float: left;	
+	margin-left: 30px;
+	margin-top: 10px ;
+	height: 80px;
+}
+
+#bottons{
+	width: 400px;
+}
+
+#log{	
+	width: 70px;
+}
+
+#Sesionstxt{
+	margin-top:5px;	
+	float: center;
+	width: 500px;
+}
+#sesion{	
+	width:500px;
+	height:300px;
+}
+
+#ses{
+border:2px solid black;
+background-color:#FAFAC1;
+	height:300px;
+	width:500px;
+	float:left;
+}
 /*slideshow*/
 
 
@@ -361,9 +648,9 @@ margin-right:20px;
 #container {
 	width:580px;
 	padding:10px;
-	margin:150px auto;
+	margin:100px auto;
 	position:relative;
-	border:solid #783737 2px;
+	border:solid black 2px;
 	background-color:#FAFAC1;
 }
 
@@ -390,7 +677,7 @@ margin-right:20px;
 }
 
 /*
-	Slideshow 
+	Slideshow si va
 */
 
 #slides {
@@ -434,7 +721,7 @@ margin-right:20px;
 }
 
 /*
-	Botones de anterior y siguiente
+	Next/prev buttons si va
 */
 
 #slides .next,#slides .prev {
@@ -452,7 +739,7 @@ margin-right:20px;
 }
 
 /*
-	Pagination 
+	Pagination (si va)
 */
 
 .pagination {
@@ -482,4 +769,84 @@ margin-right:20px;
 }
 
 
+/*Popup*/
 
+#registro h1{
+	margin-left:450px;
+}
+
+#registro button{
+	
+	margin-left:455px;
+}
+
+#registro p{
+	width:450px;
+	margin-left:275px;
+}
+
+#popupContact label{
+	color:#783737;
+	margin-left:127px;
+}
+
+.datos{
+	margin-left:125px;
+}
+
+#send{
+	margin-top:15px;
+	margin-left:140px;
+}
+
+.but{
+	color:#783737;
+}
+
+#popupContactClose{
+cursor: pointer;
+text-decoration:none;
+}
+#backgroundPopup{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+top:0;
+left:0;
+background:#000000;
+border:1px solid #cecece;
+z-index:1;
+}
+#popupContact{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:250px;
+width:408px;
+background:#FFFFFF;
+border:2px solid #FAFAC1;
+z-index:2;
+padding:12px;
+font-size:13px;
+}
+#popupContact h1{
+text-align:left;
+color:#783737;
+font-size:22px;
+font-weight:700;
+border-bottom:2px solid #FAFAC1;
+padding-bottom:2px;
+margin-bottom:20px;
+}
+#popupContactClose{
+font-size:14px;
+line-height:14px;
+right:6px;
+top:4px;
+position:absolute;
+color:#783737;
+font-weight:700;
+display:block;
+}
